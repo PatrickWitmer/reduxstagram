@@ -10,10 +10,8 @@ const Main = React.createClass({
         </h1>
         {React.cloneElement(this.props.children, this.props)};
       </div>
-    )
+    );
   }
 });
 
 export default Main;
-
-
